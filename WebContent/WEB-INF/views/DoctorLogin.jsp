@@ -61,12 +61,11 @@
 		<div class="wrap">
 			<div class="nav">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About Us</a></li>
-					<li class="active"><a href="DoctorLogin.html">Doctor's
-							Desk</a></li>
-					<li><a href="UserLogin.html">Client Care</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="index">Home</a></li>
+ 		<li><a href="about">About Us</a></li>
+ 		<li><a href="DoctorLogin">Doctor's  Desk</a></li>
+		<li class="active"><a href="UserLogin">Client Care</a></li>
+ 		<li><a href="contact">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE hibernate-configuration PUBLIC
 "-//Hibernate/Hibernate Configuration DTD//EN"
 "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
@@ -16,7 +15,7 @@
         <property name="show_sql">false</property>
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping resource ="contact.hbm.xml" />
+        <mapping resource ="patientservices.hbm.xml" />
 
     </session-factory>
 </hibernate-configuration>
