@@ -41,7 +41,7 @@
 	<div class="header-bg">
 		<div class="wrap">
 			<div class="logo">
-				<a href="<c:url value="index.html" />"><img
+				<a href="<c:url value="index" />"><img
 					src="<c:url value="/images/logo.png" />" alt="logo"> </a>
 			</div>
 
@@ -150,8 +150,8 @@
 				<div class="footer-link">
 					<ul>
 						<li><span> &copy; all rights reserved 2015
-								&nbsp;|&nbsp;Design by</span> <a href="#">Aditi, Charul, Deepanshi
-								& Kaushal</a></li>
+								&nbsp;|&nbsp;Design by</span> <a href="#">Aditi, Charul, Deepanshi,
+								Kaushal & Shivam</a></li>
 					</ul>
 				</div>
 				<div class="soc">
@@ -162,7 +162,8 @@
 						src="<c:url value="/img/deepanshi.jpg" />" height="32px"
 						width="32px" alt="" title="Deepanshi"></a> <a href="#"><img
 						src="<c:url value="/img/kaushal.jpg" />" height="32px"
-						width="32px" alt="" title="Kaushal"></a>
+						width="32px" alt="" title="Kaushal"></a><img src="<c:url value="/img/shivam.jpg" />"
+						height="32px" width="32px" alt="" title="Shivam"></a>
 				</div>
 				<div class="clear"></div>
 			</div>

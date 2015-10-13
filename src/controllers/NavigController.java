@@ -14,7 +14,7 @@ public class NavigController {
     
     @RequestMapping(value = "/about", method = RequestMethod.GET)
     public String aboutPage() {
-           return "about";
+           return "aboutus";
     }
     
     @RequestMapping(value = "/contact", method = RequestMethod.GET)
@@ -35,6 +35,16 @@ public class NavigController {
     @RequestMapping(value = "/patientservices", method = RequestMethod.GET)
     public String patientServicesPage() {
            return "PatientServices";
+    }
+    
+    @RequestMapping(value = "/patientsignup", method = RequestMethod.GET)
+    public String patientSignup() {
+           return "UserSignup";
+    }
+    
+    @RequestMapping(value = "/doctorsignup", method = RequestMethod.GET)
+    public String doctorSignup() {
+           return "DoctorSignup";
     }
 
 

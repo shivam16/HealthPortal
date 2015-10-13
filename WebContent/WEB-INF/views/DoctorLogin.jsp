@@ -63,8 +63,8 @@
 				<ul>
 					<li><a href="index">Home</a></li>
  		<li><a href="about">About Us</a></li>
- 		<li><a href="DoctorLogin">Doctor's  Desk</a></li>
-		<li class="active"><a href="UserLogin">Client Care</a></li>
+ 		<li class="active"><a href="DoctorLogin">Doctor's  Desk</a></li>
+		<li><a href="UserLogin">Client Care</a></li>
  		<li><a href="contact">Contact Us</a></li>
 				</ul>
 			</div>
@@ -97,7 +97,7 @@
 
 	<!-----start-copyright--->
 	<div class="copy-right" align="center">
-		<pre>          <a href="about.html">@healthcare</a>
+		<pre>          <a href="about">@healthcare</a>
 		</pre>
 	</div>
 	<!-----//end-copyright---->

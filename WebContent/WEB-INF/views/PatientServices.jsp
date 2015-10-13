@@ -17,7 +17,7 @@
 <div class="header-bg">
 <div class="wrap">
 	<div class="logo">
-  		<a href="index.html"><img src="images/logo.png" alt=""> </a>
+  		<a href="index"><img src="images/logo.png" alt=""> </a>
  	</div>
 
    <div class="clear"></div>
@@ -28,11 +28,11 @@
 <div class="wrap">
 	<div class="nav"> 
  	<ul>
- 		<li ><a href="index.html">Home</a></li>
- 		<li><a href="about.html">About Us</a></li>
- 		<li><a href="DoctorLogin.html">Doctor's  Desk</a></li>
-		<li class="active"><a href="UserLogin.html">Client Care</a></li>
- 		<li><a href="contact.html">Contact Us</a></li>
+ 			<li class="active"><a href="index">Home</a></li>
+					<li><a href="about">About Us</a></li>
+					<li><a href="DoctorLogin">Doctor's Desk</a></li>
+					<li><a href="UserLogin">Client Care</a></li>
+					<li><a href="contact">Contact Us</a></li>
  	</ul>      
   	</div>
   	<div class="clear"></div>

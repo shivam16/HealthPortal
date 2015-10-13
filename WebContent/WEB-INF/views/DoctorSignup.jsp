@@ -47,7 +47,7 @@
 <div class="header-bg">
 		<div class="wrap">
 			<div class="logo">
-				<a href="index"><img src="images/logo.png" alt=""> </a>
+				<a href="index.html"><img src="images/logo.png" alt=""> </a>
 			</div>
 			>
 			<div class="clear"></div>
@@ -58,7 +58,7 @@
 		<div class="wrap">
 			<div class="nav">
 				<ul>
-						<li class="active"><a href="index">Home</a></li>
+						<li><a href="index">Home</a></li>
 					<li><a href="about">About Us</a></li>
 					<li><a href="DoctorLogin">Doctor's Desk</a></li>
 					<li><a href="UserLogin">Client Care</a></li>
@@ -84,8 +84,8 @@
 				</label>
 			</div>
 			<div class="col-2">
-				<label> Address <input
-					placeholder="Where do you live?" id="address"
+				<label> Hospital <input
+					placeholder="Where do you currently work?" id="company"
 					name="hospital" tabindex="2" required>
 				</label>
 			</div>
@@ -108,27 +108,24 @@
 				</label>
 			</div>
 			<div class="col-3">
-				<label> Blood Group <select tabindex="5"
-					name="bloodgroup" required>
-						<option>A+</option>
-						<option>A-</option>
-						<option>B+</option>
-						<option>B-</option>
-						<option>AB+</option>
-						<option>AB-</option>
-						<option>O+</option>
-						<option>O-</option>
-						
+				<label> Availability <select tabindex="5"
+					name="availability" required>
+						<option>5-15 hrs per week</option>
+						<option>15-30 hrs per week</option>
+						<option>30-40 hrs per week</option>
 				</select>
 				</label>
 			</div>
 
 			<div class="col-3">
-				<label> Gender <select tabindex="5" name="gender"
+				<label> Specialization <select tabindex="5" name="spec"
 					required>
-						<option>Male</option>
-						<option>Female</option>
-						
+						<option>Cardiologist</option>
+						<option>Surgeon</option>
+						<option>Physician</option>
+						<option>Dentist</option>
+						<option>Orthopedics</option>
+						<option>Pediatrics</option>
 				</select>
 				</label>
 			</div>
@@ -139,30 +136,9 @@
 				</label>
 			</div>
 			<div class="col-4">
-				<label> Medical History <input
-					placeholder="Any medical history if you have" id="medicalhistory"
-					name="medicalhistory" tabindex="7" required>
-				</label>
-			</div>
-			
-			<div class="col-4">
-				<label> Acute Diseases <input
-					placeholder="Any acute disease if you have" id="acutedisease"
-					name="acutedisease" tabindex="7" required>
-				</label>
-			</div>
-			
-			<div class="col-4">
-				<label> Date of Birth <input
-					placeholder="Your Date of Birth" id="dob"
-					name="dob" tabindex="7" required>
-				</label>
-			</div>
-			
-			<div class="col-4">
-				<label> Age <input
-					placeholder="Age" id="age"
-					name="acutedisease" tabindex="7" required>
+				<label> Yrs Experience <input
+					placeholder="How many years of experience?" id="experience"
+					name="experience" tabindex="7" required>
 				</label>
 			</div>
 
